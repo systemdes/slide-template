@@ -8,6 +8,12 @@ This repo contains keynote themes, guidelines, and assets to create a presentati
 * Most text is defined as *text placeholder* in the master slide so they are easily editable.
 * Most images are defined as *media placeholder* in the master slide so they are easily editable.
 * The template uses a *[table with variables][table]* to globally update slide information.
+* Both `.key` and `.kth (template files)` are provided.
+
+## Template
+* Turn on **guides and rulers** for better alignment and 'clear' space options.
+* Turn on the **object list** for layers in the sidebar.
+* **Customize the toolbar** with right clicking on it.
 
 ## Colors
 Colors are saved as `txt` and converted to `clr` with [ColorTools][colortools] so they can be imported into Keynote.
