@@ -1,4 +1,0 @@
-#FFFFFF White
-#F1F1F3 Grey
-#414143 DarkGrey
-#1D1E22 Black
