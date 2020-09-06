@@ -1,55 +1,28 @@
-# slide-template
-Master keynote templates with themes
+<p align="center">
+  <a href="https://revealjs.com">
+  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text.svg" alt="reveal.js" width="450">
+  </a>
+  <br><br>
+  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
+  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+</p>
 
-## Description
+reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free. [Check out the live demo](https://revealjs.com/).
 
-This repo contains keynote themes, guidelines, and assets to create a presentation.
+The framework comes with a broad range of features including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX support](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and much more.
 
-* Most text is defined as *text placeholder* in the master slide so they are easily editable.
-* Most images are defined as *media placeholder* in the master slide so they are easily editable.
-* The template uses a *[table with variables][table]* to globally update slide information.
-* Both `.key` and `.kth (template files)` are provided.
+<h1>
+  <a href="https://revealjs.com/installation" style="font-size: 3em;">Get Started</a>
+</h1>
 
-## Template
-* Turn on **guides and rulers** for better alignment and 'clear' space options.
-* Turn on the **object list** for layers in the sidebar.
-* **Customize the toolbar** with right clicking on it.
+## Documentation
+The full reveal.js documentation is available at [revealjs.com](https://revealjs.com).
 
-## Colors
-Colors are saved as `txt` and converted to `clr` with [ColorTools][colortools] so they can be imported into Keynote.
-
-```bash
-./Html2Clr ./NAME_OF_THEME.txt 
-```
-
-`cmd + shift + c` to open the color picker and click on the gear icon to open the `clr` file.
-
-## Icons
-Icons used in the template are either self-made, from [Octicons][octi] or [The Noun Project][noun].
-
-## Typography
-The master template uses the [Inter Font Family][inter] and [Simplon Mono][simplon] (not included in the assets folder). The template uses *paragraphy styles* to set-up the type scale.
-
-* Inter is used for heading and body copy.
-* Simplon is used for code and labels/eyebrow text.
-
-## Code Highlighting
-
-## Inspiration
-Slide templates and style inspired by [GitHub primer presentation][github], [The Verge][verge] and [Vox][vox].
+## Online Editor
+Want to create your presentation using a visual editor? Try the official reveal.js presentation platform for free at [Slides.com](https://slides.com). It's made by the same people behind reveal.js.
 
 ## License
-[MIT][license] © [Danny de Vries][author]
 
+MIT licensed
 
-[colortools]: https://github.com/ramonpoca/ColorTools
-[octi]: https://github.com/primer/octicons
-[noun]: https://thenounproject.com/
-[inter]: https://rsms.me/inter/
-[simplon]: https://www.swisstypefaces.com/fonts/simplon/
-[table]: https://primer.style/presentations/footer
-[github]: https://primer.style/presentations
-[verge]: https://www.youtube.com/user/TheVerge
-[vox]: https://www.youtube.com/user/voxdotcom
-[author]: https://github.com/dandevri
-[license]: license
+Copyright (C) 2011-2020 Hakim El Hattab, https://hakim.se
