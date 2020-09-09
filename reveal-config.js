@@ -2,6 +2,7 @@
 Reveal.initialize({
   hash: true,
   transition: 'none',
+  backgroundTransition: 'none',
   controls: false,
   progress: false,
   slideNumber: false,
@@ -9,6 +10,7 @@ Reveal.initialize({
   slideNumber: 'c/t',
   showSlideNumber: 'speaker',
   totalTime: "1800",
+  margin: 0.08,
   pdfSeparateFragments: false,
   plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealSearch]
 });
